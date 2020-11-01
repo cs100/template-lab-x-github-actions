@@ -7,7 +7,7 @@ There exist many tools to perform continuous integration and I suggest you start
 Unfortunately, you need owner permissions to add Travis CI and so you won't be able to add it to the repositories in this course since we are the owners of those repositories. Instead, we will be using GitHub actions to create our own continuous integration *workflow*. 
 
 ## GitHub Actions
->GitHub Actions make it easy to automate all your software workflos, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging the way you want. - [GitHub](https://github.com/features/actions)
+>GitHub Actions make it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging the way you want. - [GitHub](https://github.com/features/actions)
 
 There are many great workflows that already exist that you can use to get started. I suggest you explore them during, or after, the quarter and think how you could use them in your personal projects. We're going to make our own flow from scratch. It's always good to learn how to create something from scratch first.
 
