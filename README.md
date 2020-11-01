@@ -119,7 +119,7 @@ If you need help on the GitHub actions syntax you can reference their documentat
 Hints:
  * The easiest way to make a test fail is to remove the implementation of a function and just hard code an (incorrect) return value.
  * To add googletest as a submodule: `git submodule add https://github.com/google/googletest.git`
-   * Don't forget, now that we have a submodule you need to clone by `git clone --recursive ...`
+   * Don't forget, if you have a submodule in the repository, you need to clone by `git clone --recursive ...`
  * Learn how to use the [actions/checkout](https://github.com/actions/checkout) process to mimic your own build process. 
 
  Once you have finished the lab you can add a badge to the README.md. From the actions page, go to the workflow you just created. In the upper right you should see a button that says `Create status badge`. You can add that to the top of your README.md and you'll get a badge that shows the current status of your workflow *on your main branch*. This isn't required for the lab but can be helpful in your other projects.
