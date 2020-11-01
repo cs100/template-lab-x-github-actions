@@ -96,7 +96,7 @@ Pushes to `main` and `<netid>/ci_setup` will now trigger the actions but only pu
 This indicates that your running the actions on your `<netid>/ci_setup` branch. You can peruse the other sections, but you should see that they are still passing exactly the same way. 
 
 ## Lab exercises
-Now that you know the basics of working with GitHub Actions and YAML configuration files, your task is to get the tests that you ran in the previous lab to now run through GitHub Actions and give you a **green check** when they are passing, but, just as importantly, a **red X** when they are failing. It is *always* a good idea to make sure that you can get your tests to fail. If you can't, they likely aren't working properly. 
+Now that you know the basics of working with GitHub Actions and YAML configuration files, your task is to get your tests to now run through GitHub Actions and give you a **green check** when they are passing, but, just as importantly, a **red X** when they are failing. It is *always* a good idea to make sure that you can get your tests to fail. If you can't, they likely aren't working properly. 
 
 You are going to extend the `Rectangle` class from the first lab (which only had an `area` function) and add some functionality:
  * Add a constructor that accepts a width and height as parameters (`Rectangle(int,int)`)
