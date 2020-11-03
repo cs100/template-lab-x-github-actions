@@ -63,7 +63,7 @@ Create main.yml
  ```
  And commit. 
 
- Now if you go to the `<> Code` tab (and to the top level directory) you'll see that you made a commit and you'll see a small green check mark next to the commit hash. If you see a yellow dot instead just be patient, your actions are still running. You may need to refresh the page a few times. If you see a red X, your actions are failing, talk to the TA because something has gone wrong. The green check indicates that your commit is **passing** your CI tests. This is easy to do since you don't actually have any tests yet. Let's check out specifically what is happening. If you click on the check mark yoiu can see a popup that shows the checks that are being run, their status and a button to see more details. You can click on that button or you can click on the `Actions` tab in the top bar to go to the main actions page. Let's click on the `details` button to see what happened. This will take us to a more detailed page on what was run. We can see that we successfully (green check mark) `Set up job`, `Run actions/checkout@v2`, `Run a one-line script`, `Run a multi-line script`, `Post Run actions/checkout@v2`, `Complete job` and each one has an arrow to the left to expand more details about that specific step. The middle 3 `Run ...` actions should be familiar, those are the steps that you wrote under `jobs...build` in the YAML file. The `Post Run ...` and `Complete job` are generated automatically (though you can add details) by the GitHub Actions engine. Let's expand the `Run a one-line script` section
+ Now if you go to the `<> Code` tab (and to the top level directory) you'll see that you made a commit and you'll see a small green check mark next to the commit hash. If you see a yellow dot instead just be patient, your actions are still running. You may need to refresh the page a few times. If you see a red X, your actions are failing, talk to the TA because something has gone wrong. The green check indicates that your commit is **passing** your CI tests. This is easy to do since you don't actually have any tests yet. Let's check out specifically what is happening. If you click on the check mark you can see a popup that shows the checks that are being run, their status and a button to see more details. You can click on that button or you can click on the `Actions` tab in the top bar to go to the main actions page. Let's click on the `details` button to see what happened. This will take us to a more detailed page on what was run. We can see that we successfully (green check mark) `Set up job`, `Run actions/checkout@v2`, `Run a one-line script`, `Run a multi-line script`, `Post Run actions/checkout@v2`, `Complete job` and each one has an arrow to the left to expand more details about that specific step. The middle 3 `Run ...` actions should be familiar, those are the steps that you wrote under `jobs...build` in the YAML file. The `Post Run ...` and `Complete job` are generated automatically (though you can add details) by the GitHub Actions engine. Let's expand the `Run a one-line script` section
 ```
 1  > Run echo Hello, world!
 4  Hello, world!
@@ -76,7 +76,7 @@ and expand the `Run a multi-line script` sectiona
 ```
 and we can see the output of our commands as well as the command that was run.
 
-Now, it's bad practice to commit directly on GitHub and to commit directly to the *main* branch so let's get setup the Actions to run on a different branch and complete developing on it. Log in to **Hammer** and navigate to where you have been keeping your CS100 labs. Clone the repo you've been working on (`git clone ...`) and create a new branch to work on.
+Now, it's bad practice to commit directly on GitHub and to commit directly to the *main* branch so let's setup the Actions to run on a different branch and complete developing on it. Log in to **Hammer** and navigate to where you have been keeping your CS100 labs. Clone the repo you've been working on (`git clone ...`) and create a new branch to work on.
 ```
 git checkout -b <netid>/ci_setup
 ```
@@ -93,7 +93,7 @@ Pushes to `main` and `<netid>/ci_setup` will now trigger the actions but only pu
 ```
 /usr/bin/git checkout --progress --force -B <netid>/ci_setup refs/remotes/origin/<netid>/ci_setup
 ```
-This indicates that your running the actions on your `<netid>/ci_setup` branch. You can peruse the other sections, but you should see that they are still passing exactly the same way. 
+This indicates that you are running the actions on your `<netid>/ci_setup` branch. You can peruse the other sections, but you should see that they are still passing exactly the same way. 
 
 ## Lab exercises
 Now that you know the basics of working with GitHub Actions and YAML configuration files, your task is to get your tests to now run through GitHub Actions and give you a **green check** when they are passing, but, just as importantly, a **red X** when they are failing. It is *always* a good idea to make sure that you can get your tests to fail. If you can't, they likely aren't working properly. 
@@ -110,7 +110,7 @@ With this added functionality you should create three **test suites**, one for e
 And add tests to each test suite to properly test each function. This will probably require ~3 - 6 tests per suite.
 
 ### Deliverables
-You should have a branch `<netid>/passing_tests` and `<netid>/failing_tests` in your repository and they should be passing (green check) and failing (red X) respectively. The YAML file and test files should be identical between these two repositories, the only difference should be in the `Rectangle` source code that you have written. **Don't** change the *expected* results of the tests to create a failure. You do not need to fail **every** test, or even every suite, but you should be able explain what you did to cause the failure. 
+You should have a branch `<netid>/passing_tests` and `<netid>/failing_tests` in your repository and they should be passing (green check) and failing (red X) respectively. The YAML file and test files should be identical between these two branches, the only difference should be in the `Rectangle` source code that you have written. **Don't** change the *expected* results of the tests to create a failure. You do not need to fail **every** test, or even every suite, but you should be able explain what you did to cause the failure. 
 
 You will need to show each of these branches to your TA and discuss (1) your YAML file, (2) the tests you wrote and (3) the process to merge one of the branches into your `main` branch. Once you have done this, and the TA is satisfied you understand the concepts, they will sign off on the lab.
 
