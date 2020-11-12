@@ -6,7 +6,7 @@ name: CI
 # events but only for the main branch
 on:
   push:
-    branches: [ main, sumar001/failing_tests ]
+    branches: [ main, sumar001/failing_tests, sumar001/passing_tests ]
   pull_request:
     branches: [ main ]
 
