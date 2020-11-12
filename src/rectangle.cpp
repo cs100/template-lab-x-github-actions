@@ -20,12 +20,12 @@ void Rectangle::set_height(int h) {
 
 int Rectangle::area() {
     if (width <= 0 || height <= 0)
-	return -2;
-    return this->width * this->height * 2;
+	return -1;
+    return this->width * this->height;
 }
 
 int Rectangle::perimeter() {
     if (width <= 0 || height <= 0)
-	return -2;
-    return (this->width * 3) + (this->height * 3);
+	return -1;
+    return (this->width * 2) + (this->height * 2);
 }
