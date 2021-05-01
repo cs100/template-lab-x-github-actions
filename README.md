@@ -8,8 +8,8 @@
 >    * Kimberly Yang (kimberlytyang)
 >    * Nathan Brennan (GrayGorilla)
 >    * Shuang Zhou (DiamondKen)
-
-Now, you repository is ready. Each member should now clone the new repository to work on the lab.
+>    
+>    Now, you repository is ready. Each member should now clone the new repository to work on the lab.
 
 # Continuous Integration (CI)
 
