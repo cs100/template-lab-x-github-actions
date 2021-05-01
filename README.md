@@ -1,4 +1,18 @@
+**_Important note before working on this lab:_**
+> In this lab you will be learning about and running GitHub actions. However, the CS 100 organization owning this repository only has a limited number of minutes to run actions. Therefore,  if you work on this repository you may run out of minutes. To avoid this, for this lab only, you will **NOT** be cloning this repository. Instead, you will start by forking this repository under your own personal account (only one team member needs to do this). Each GitHub Free account gets 2000 minutes for free per month which is plenty for experimenting with and completing the lab. To start, follow the instructions below (again only one team member will need to execute these three instructions):
+> 1. To fork this repository under your account, click on the `fork` button in the upper right hand corner of this page.
+> 1. In the new repository (i.e., the fork), check that all your team members have access by going to the `settings` tab and then clicking on `Manage access` in the left side bar. You should see you team there with write access.
+> 1. You will also need to give TAs and readers admin access to your repository for grading. In  `settings` -> `Manage access` click on the green button `Invite teams or people`, add the members listed below using their GitHub usernames, and make sure you select `admin` as the permission level before clicking `Add`.
+>    * Ali Davanian (adava)
+>    * Kevin Nguyen (kevnguy)
+>    * Kimberly Yang (kimberlytyang)
+>    * Nathan Brennan (GrayGorilla)
+>    * Shuang Zhou (DiamondKen)
+
+Now, you repository is ready. Each member should now clone the new repository to work on the lab.
+
 # Continuous Integration (CI)
+
 In a previous lab we learned how to use GTest to write unit tests for our code. This is a very powerful skill to ensure that we don't break something in our code as we develop and that we can write code that lives up to specification. We have also discussed Test Driven Development (TDD) which has us write the tests to the specification first, then write enough code to pass the test before moving on. Now, this all works great, but we'd love a way to (1) test our code automatically when we make changes and (2) not **let** us break our own code, or our teammates'. Much of what becoming a more efficient programmer is is learning how to prevent yourself from making the little errors that cause big problems later on. This is where **continuous integration** comes in. Continuous integration (CI) is a development practice where developers integrate code into a shared repository frequently and each integration is *verified* by an automated build and automated tests. This will let you catch errors early and not commit code that does not pass the current tests, or even breaks past tests (regression testing). 
 
 There exist many tools to perform continuous integration and I suggest you start working with [Travis CI](https://travis-ci.org/) in your own projects. The reason I suggest Travis CI is because it comes with the GitHub Student Developer Pack so it's free for you to use (to an extent). It's always a good idea to look into different tools as your next internship/job may use a different one. The process is similar across many of them. 
