@@ -8,12 +8,6 @@
 
 /home/csmajs/anguy589/lab-6-github-actions/header/rectangle.hpp
 
-/home/csmajs/anguy589/lab-6-github-actions/src/main.cpp
-iostream
--
-../header/rectangle.hpp
-/home/csmajs/anguy589/lab-6-github-actions/header/rectangle.hpp
-
 /home/csmajs/anguy589/lab-6-github-actions/src/rectangle.cpp
 ../header/rectangle.hpp
 /home/csmajs/anguy589/lab-6-github-actions/header/rectangle.hpp
