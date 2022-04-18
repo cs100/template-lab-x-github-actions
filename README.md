@@ -4,7 +4,7 @@
 > 1. In the new repository (i.e., the fork), check that all your team members have access by going to the `settings` tab and then clicking on `Manage access` in the left side bar. You should see you team there with write access.
 > 1. Once you reserve a demo slot, you will also need to give the TA/reader that will be taking your demo admin access to your repository for grading. In  `settings` -> `Manage access` click on the green button `Invite teams or people`, and add the TA/reader from the list below using the GitHub username, and make sure you select `admin` as the permission level before clicking `Add`. Please make sure you do this step **_before_** the demo time starts and not during the actual demo.
 >    * Rucha Kolhatkar (R-Kolhatkar)
->    * Brooke Godinez (brookegodinez)
+>    * Simran Saha (ssaha031)
 >    * Shankar Ramaswamy (shankar1910)
 >    * Rany Tith (ranyishere)
 >    * Nina Shenoy (ninashenoy)
