@@ -3,18 +3,19 @@
 > 1. To fork this repository under your account, click on the `fork` button in the upper right hand corner of this page.
 > 1. In the new repository (i.e., the fork), check that all your team members have access by going to the `settings` tab and then clicking on `Manage access` in the left side bar. You should see you team there with write access.
 > 1. Once you reserve a demo slot, you will also need to give the TA/reader that will be taking your demo admin access to your repository for grading. In  `settings` -> `Manage access` click on the green button `Invite teams or people`, and add the TA/reader from the list below using the GitHub username, and make sure you select `admin` as the permission level before clicking `Add`. Please make sure you do this step **_before_** the demo time starts and not during the actual demo.
->    * Rucha Kolhatkar (R-Kolhatkar)
 >    * Simran Saha (ssaha031)
->    * Shankar Ramaswamy (shankar1910)
->    * Rany Tith (ranyishere)
->    * Nina Shenoy (ninashenoy)
->    * Shreyas Ghuge (ghugeshree)
->    * Edward Zhu (ezhu010)
->    * Thuan Vu (giathuan123)
+>    * Aaron Geesink (AaronGeesink)
 >    * Nathan Melwani (NateM135)
 >    * Minsoo Kim	(minsooerickim)
 >    * Raymond Zeng (raymondwzeng)
->    
+>    * Trisha Agrawal (trisha112)
+>    * Mohith Kailash Tirumalasetty (mohithkailash) 
+>    * Akhilesh Reddy Gali (nameisakhilesh)
+>    * Alex Hsieh (alexchsieh)
+>    * Satya Rajendra (sraje010)
+>    * David Ryan (davidry777
+>    * Suraj Thalari (surajthalari)
+
 >    Now, you repository is ready. Each member should now clone the new repository to work on the lab.
 
 # Continuous Integration (CI)
