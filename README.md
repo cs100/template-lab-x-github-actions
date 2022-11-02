@@ -96,7 +96,7 @@ and expand the `Run a multi-line script` sectiona
 ```
 and we can see the output of our commands as well as the command that was run.
 
-Now, it's bad practice to commit directly on GitHub and to commit directly to the *main* branch so let's setup the Actions to run on a different branch and complete developing on it. Log in to **Hammer** and navigate to where you have been keeping your CS100 labs. Clone the repo you've been working on (`git clone ...`) and create a new branch to work on.
+Now, it's bad practice to commit directly on GitHub and to commit directly to the *main* branch so let's setup the Actions to run on a different branch and complete developing on it. Log in to the **CS100** server and navigate to where you have been keeping your CS100 labs. Clone the repo you've been working on (`git clone ...`) and create a new branch to work on.
 ```
 git checkout -b <netid>/ci_setup
 ```
