@@ -16,11 +16,11 @@
 >    * Austin Yang (Toona411)
 >    * Ryan Nguyen	(ryannewin)
 
->    Now, you repository is ready. Each member should now clone the new repository to work on the lab.
+>    Now, your repository is ready. Each member should now clone the new repository to work on the lab.
 
 # Continuous Integration (CI)
 
-In a previous lab we learned how to use GTest to write unit tests for our code. This is a very powerful skill to ensure that we don't break something in our code as we develop and that we can write code that lives up to specification. We have also discussed Test Driven Development (TDD) which has us write the tests to the specification first, then write enough code to pass the test before moving on. Now, this all works great, but we'd love a way to (1) test our code automatically when we make changes and (2) not **let** us break our own code, or our teammates'. Much of what becoming a more efficient programmer is is learning how to prevent yourself from making the little errors that cause big problems later on. This is where **continuous integration** comes in. Continuous integration (CI) is a development practice where developers integrate code into a shared repository frequently and each integration is *verified* by an automated build and automated tests. This will let you catch errors early and not commit code that does not pass the current tests, or even breaks past tests (regression testing). 
+In a previous lab we learned how to use GTest to write unit tests for our code. This is a very powerful skill to ensure that we don't break something in our code as we develop and that we can write code that lives up to specification. We have also discussed Test Driven Development (TDD) which has us write the tests to the specification first, then write enough code to pass the test before moving on. Now, this all works great, but we'd love a way to (1) test our code automatically when we make changes and (2) not **let** us break our own code, or our teammates'. Much of what becoming a more efficient programmer is learning how to prevent yourself from making the little errors that cause big problems later on. This is where **continuous integration** comes in. Continuous integration (CI) is a development practice where developers integrate code into a shared repository frequently and each integration is *verified* by an automated build and automated tests. This will let you catch errors early and not commit code that does not pass the current tests, or even breaks past tests (regression testing). 
 
 There exist many tools to perform continuous integration and I suggest you start working with [Travis CI](https://travis-ci.org/) in your own projects. The reason I suggest Travis CI is because it comes with the GitHub Student Developer Pack so it's free for you to use (to an extent). It's always a good idea to look into different tools as your next internship/job may use a different one. The process is similar across many of them. 
 
@@ -76,7 +76,7 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
 ```
-This is a good start. It won't do anything that we will want it to do eventually, but it provides output and we'll be able to see something happening. It's always a good idea to run a "Hello world!" type of program when first learning a language, tool, or framework. In the top right corner you'll see a "Start commit" button. It is typically **not** a good practice to do commits directly to the *main* branch and from the GitHub interface but it's okay for small changes in files like the `README.md` and in this case since we are just initializing the default. We'll work from the command line after this. Let's create a commit message
+This is a good start. It won't do anything that we will want it to do eventually, but it provides output and we'll be able to see something happening. It's always a good idea to run a "Hello world!" type of program when first learning a language, tool, or framework. In the top right corner you'll see a "Start commit" button. It is typically **not** a good practice to do commits directly to the *main* branch and from the GitHub interface but it's okay for small changes in files like the `README.md` and in this case since we are just initializing the default. We'll work from the command line after this. Let's create a commit message:
 ```
 Create main.yml
  * Leave the defaults in the YAML file
@@ -88,7 +88,7 @@ Create main.yml
 1  > Run echo Hello, world!
 4  Hello, world!
 ```
-and expand the `Run a multi-line script` sectiona
+and expand the `Run a multi-line script` section
 ```
 1  > Run echo Add other actions to build,
 5  Add other actions to build,
