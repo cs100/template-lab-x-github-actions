@@ -47,7 +47,7 @@ Next, let's specify when the actions will run:
 on:
   push:
     branches: [ main ]
-  pull_requests:
+  pull_request:
     branches: [ main ]
 ```
 Your workflow will now run every time you *push* or make a *pull request* to your **main** branch only. These are the *triggering events*. 
