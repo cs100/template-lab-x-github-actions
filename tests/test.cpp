@@ -23,9 +23,9 @@ EXPECT_EQ(testRec->perimeter(), 10);
 }
 TEST(rectangleTEST, testArea){
 
-Rectangle* testRec = new Rectangle(4,4);
+Rectangle* testRec = new Rectangle(4,5);
 
-EXPECT_EQ(testRec->area(),16);
+EXPECT_EQ(testRec->area(),20);
 
 
 }
