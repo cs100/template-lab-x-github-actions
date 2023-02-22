@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp" "CMakeFiles/area_calculator.dir/src/main.cpp.o" "gcc" "CMakeFiles/area_calculator.dir/src/main.cpp.o.d"
-  "/home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp" "CMakeFiles/area_calculator.dir/src/rectangle.cpp.o" "gcc" "CMakeFiles/area_calculator.dir/src/rectangle.cpp.o.d"
+  "/data/home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp" "CMakeFiles/area_calculator.dir/src/main.cpp.o" "gcc" "CMakeFiles/area_calculator.dir/src/main.cpp.o.d"
+  "/data/home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp" "CMakeFiles/area_calculator.dir/src/rectangle.cpp.o" "gcc" "CMakeFiles/area_calculator.dir/src/rectangle.cpp.o.d"
   )
 
 # Targets to which this target links.
