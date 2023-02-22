@@ -30,4 +30,4 @@ jobs:
     name: "Run make"
     run : make
     name: "Run tests"
-    run ./test
+    run : ./test
