@@ -1,0 +1,3 @@
+/data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/rebuild_cache.dir
+/data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/area_calculator.dir
+/data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/edit_cache.dir
