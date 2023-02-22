@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /data/home/csmajs/apadi089/template-lab-x-github-actions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/home/csmajs/apadi089/template-lab-x-github-actions
+CMAKE_BINARY_DIR = /home/csmajs/apadi089/template-lab-x-github-actions
 
 # Include any dependencies generated for this target.
 include CMakeFiles/area_calculator.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/area_calculator.dir/flags.make
 CMakeFiles/area_calculator.dir/src/main.cpp.o: CMakeFiles/area_calculator.dir/flags.make
 CMakeFiles/area_calculator.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/area_calculator.dir/src/main.cpp.o: CMakeFiles/area_calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/area_calculator.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/area_calculator.dir/src/main.cpp.o -MF CMakeFiles/area_calculator.dir/src/main.cpp.o.d -o CMakeFiles/area_calculator.dir/src/main.cpp.o -c /data/home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/area_calculator.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/area_calculator.dir/src/main.cpp.o -MF CMakeFiles/area_calculator.dir/src/main.cpp.o.d -o CMakeFiles/area_calculator.dir/src/main.cpp.o -c /home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp
 
 CMakeFiles/area_calculator.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/area_calculator.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp > CMakeFiles/area_calculator.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp > CMakeFiles/area_calculator.dir/src/main.cpp.i
 
 CMakeFiles/area_calculator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/area_calculator.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp -o CMakeFiles/area_calculator.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp -o CMakeFiles/area_calculator.dir/src/main.cpp.s
 
 CMakeFiles/area_calculator.dir/src/rectangle.cpp.o: CMakeFiles/area_calculator.dir/flags.make
 CMakeFiles/area_calculator.dir/src/rectangle.cpp.o: src/rectangle.cpp
 CMakeFiles/area_calculator.dir/src/rectangle.cpp.o: CMakeFiles/area_calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/area_calculator.dir/src/rectangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/area_calculator.dir/src/rectangle.cpp.o -MF CMakeFiles/area_calculator.dir/src/rectangle.cpp.o.d -o CMakeFiles/area_calculator.dir/src/rectangle.cpp.o -c /data/home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/area_calculator.dir/src/rectangle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/area_calculator.dir/src/rectangle.cpp.o -MF CMakeFiles/area_calculator.dir/src/rectangle.cpp.o.d -o CMakeFiles/area_calculator.dir/src/rectangle.cpp.o -c /home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp
 
 CMakeFiles/area_calculator.dir/src/rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/area_calculator.dir/src/rectangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp > CMakeFiles/area_calculator.dir/src/rectangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp > CMakeFiles/area_calculator.dir/src/rectangle.cpp.i
 
 CMakeFiles/area_calculator.dir/src/rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/area_calculator.dir/src/rectangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp -o CMakeFiles/area_calculator.dir/src/rectangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp -o CMakeFiles/area_calculator.dir/src/rectangle.cpp.s
 
 # Object files for target area_calculator
 area_calculator_OBJECTS = \
@@ -109,7 +109,7 @@ area_calculator: CMakeFiles/area_calculator.dir/src/main.cpp.o
 area_calculator: CMakeFiles/area_calculator.dir/src/rectangle.cpp.o
 area_calculator: CMakeFiles/area_calculator.dir/build.make
 area_calculator: CMakeFiles/area_calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable area_calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable area_calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/area_calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/area_calculator.dir/clean:
 .PHONY : CMakeFiles/area_calculator.dir/clean
 
 CMakeFiles/area_calculator.dir/depend:
-	cd /data/home/csmajs/apadi089/template-lab-x-github-actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/home/csmajs/apadi089/template-lab-x-github-actions /data/home/csmajs/apadi089/template-lab-x-github-actions /data/home/csmajs/apadi089/template-lab-x-github-actions /data/home/csmajs/apadi089/template-lab-x-github-actions /data/home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/area_calculator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/csmajs/apadi089/template-lab-x-github-actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/area_calculator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/area_calculator.dir/depend
 

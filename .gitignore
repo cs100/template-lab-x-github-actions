@@ -1,4 +1,7 @@
-Makefile
+c-echo-count
+test
+
 CMakeCache.txt
-CmakeFiles
-area_calculator
+CMakeFiles/
+cmake_install.cmake
+Makefile
