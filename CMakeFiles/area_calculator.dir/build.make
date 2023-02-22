@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/home/csmajs/apadi089/template-lab-x-github-actions
+CMAKE_SOURCE_DIR = /home/csmajs/apadi089/template-lab-x-github-actions
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/csmajs/apadi089/template-lab-x-github-actions
@@ -121,6 +121,6 @@ CMakeFiles/area_calculator.dir/clean:
 .PHONY : CMakeFiles/area_calculator.dir/clean
 
 CMakeFiles/area_calculator.dir/depend:
-	cd /home/csmajs/apadi089/template-lab-x-github-actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/area_calculator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/csmajs/apadi089/template-lab-x-github-actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions /home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles/area_calculator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/area_calculator.dir/depend
 
