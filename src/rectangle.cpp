@@ -1,4 +1,6 @@
 #include "../header/rectangle.hpp"
+#include <iostream>
+#include <assert.h>
 
 Rectangle::Rectangle(){
 	width = 0;
@@ -7,8 +9,7 @@ Rectangle::Rectangle(){
 
 Rectangle::Rectangle(int w, int h ){
 	if(w < 0 || h < 0){
-		cout << "Width/height cannot be less than 0";
-		return 1;
+		assert(w > 0 && h > 0 && "Width/height cannot be less than 0");
 	}
 	width = w;
 	height = h;
