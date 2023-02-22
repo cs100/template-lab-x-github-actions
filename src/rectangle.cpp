@@ -6,7 +6,10 @@ Rectangle::Rectangle(){
 }
 
 Rectangle::Rectangle(int w, int h ){
-
+	if(w < 0 || h < 0){
+		cout << "Width/height cannot be less than 0";
+		return 1;
+	}
 	width = w;
 	height = h;
 
