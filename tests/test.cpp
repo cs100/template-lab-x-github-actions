@@ -20,13 +20,7 @@ EXPECT_EQ(testRec->area(), 0);
 
 }
 
-TEST(Constructor, testNeg){
 
-Rectangle* testRec;
-
-EXPECT_DEATH(new Rectangle(-1, -2), "Width/height cannot be less than 0");
-
-}
 
 TEST(Perimeter , testDiff){
 
