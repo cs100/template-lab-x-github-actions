@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ main , apadi089/passing_tests,apadi089/failing_tests]
+    branches: [ main ,apadi089/ci_setup apadi089/passing_tests,apadi089/failing_tests]
   pull_request:
     branches: [ main ]
     # A workflow run is made up of one or more jobs that can run sequentially or in parallel
