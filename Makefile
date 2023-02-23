@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/home/csmajs/apadi089/template-lab-x-github-actions
+CMAKE_SOURCE_DIR = /home/csmajs/asriv033/template-lab-x-github-actions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/csmajs/apadi089/template-lab-x-github-actions
+CMAKE_BINARY_DIR = /home/csmajs/asriv033/template-lab-x-github-actions
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles /home/csmajs/apadi089/template-lab-x-github-actions//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/asriv033/template-lab-x-github-actions/CMakeFiles /home/csmajs/asriv033/template-lab-x-github-actions//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/apadi089/template-lab-x-github-actions/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/asriv033/template-lab-x-github-actions/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

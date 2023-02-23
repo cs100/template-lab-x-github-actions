@@ -1,5 +1,5 @@
 CMakeFiles/area_calculator.dir/src/main.cpp.o: \
- /home/csmajs/apadi089/template-lab-x-github-actions/src/main.cpp \
+ /home/csmajs/asriv033/template-lab-x-github-actions/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/8/iostream \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -111,4 +111,4 @@ CMakeFiles/area_calculator.dir/src/main.cpp.o: \
  /usr/include/c++/8/bits/basic_ios.tcc \
  /usr/include/c++/8/bits/ostream.tcc /usr/include/c++/8/istream \
  /usr/include/c++/8/bits/istream.tcc \
- /home/csmajs/apadi089/template-lab-x-github-actions/src/../header/rectangle.hpp
+ /home/csmajs/asriv033/template-lab-x-github-actions/src/../header/rectangle.hpp
