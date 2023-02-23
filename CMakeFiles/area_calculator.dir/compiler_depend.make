@@ -171,12 +171,9 @@ CMakeFiles/area_calculator.dir/src/main.cpp.o: src/main.cpp \
   /home/csmajs/apadi089/template-lab-x-github-actions/header/rectangle.hpp
 
 CMakeFiles/area_calculator.dir/src/rectangle.cpp.o: src/rectangle.cpp \
-  /home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp \
   /usr/include/stdc-predef.h \
-  /home/csmajs/apadi089/template-lab-x-github-actions/header/rectangle.hpp
+  header/rectangle.hpp
 
-
-/home/csmajs/apadi089/template-lab-x-github-actions/src/rectangle.cpp:
 
 src/rectangle.cpp:
 
@@ -247,6 +244,8 @@ src/main.cpp:
 /usr/include/c++/8/bits/stl_pair.h:
 
 /usr/include/c++/8/bits/concept_check.h:
+
+header/rectangle.hpp:
 
 /usr/include/bits/types/FILE.h:
 
