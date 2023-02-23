@@ -2,7 +2,7 @@
 #include "gtest/gtest.h"
 #include "../header/rectangle.hpp"
 
-TEST(rectangleTEST, testConstructor){
+TEST(Constructor, testNormal){
 
 Rectangle* testRec = new Rectangle(4,4);
 
@@ -12,7 +12,7 @@ EXPECT_EQ(testRec->area(),16);
 
 }
 
-TEST (rectangleTEST, testConstructorTwo){
+TEST (Constructor, testZero){
 
 Rectangle* testRec = new Rectangle(0,0);
 
@@ -20,7 +20,7 @@ EXPECT_EQ(testRec->area(), 0);
 
 }
 
-TEST(rectangleTEST, testConstructorThree){
+TEST(Constructor, testNeg){
 
 Rectangle* testRec;
 
@@ -28,7 +28,7 @@ EXPECT_DEATH(new Rectangle(-1, -2), "Width/height cannot be less than 0");
 
 }
 
-TEST(rectangleTEST , testPerimeter){
+TEST(Perimeter , testDiff){
 
 Rectangle* testRec = new Rectangle(2,3);
 
@@ -38,7 +38,7 @@ EXPECT_EQ(testRec->perimeter(), 10);
     
 }
 
-TEST(rectangleTEST, testPerimeterTwo){
+TEST(Perimeter, testZero){
 
 Rectangle* testRec = new Rectangle(0,0);
 
@@ -46,7 +46,7 @@ EXPECT_EQ(testRec->perimeter(), 0);
 
 }
 
-TEST(rectangleTEST, testPerimeterThree){
+TEST(Perimeter, testSame){
 
 Rectangle* testRec = new Rectangle(4, 4);
 
@@ -54,7 +54,7 @@ EXPECT_EQ(testRec->perimeter(), 16);
 
 }
 
-TEST(rectangleTEST, testArea){
+TEST(Area, testDiff){
 
 Rectangle* testRec = new Rectangle(4,5);
 
@@ -63,7 +63,7 @@ EXPECT_EQ(testRec->area(),20);
 
 }
 
-TEST(rectangleTEST, testAreaTwo){
+TEST(Area, testZero){
 
 Rectangle* testRec = new Rectangle(0,0);
 
@@ -71,7 +71,7 @@ EXPECT_EQ(testRec->area(), 0);
 
 }
 
-TEST(rectangleTEST, testAreaThree){
+TEST(Area, testSame){
 
 Rectangle* testRec = new Rectangle(4,4);
 

@@ -335,8 +335,11 @@ CMakeFiles/area_calculator.dir/src/rectangle.cpp.o: src/rectangle.cpp \
   /usr/include/c++/8/bits/basic_ios.tcc \
   /usr/include/c++/8/bits/ostream.tcc \
   /usr/include/c++/8/istream \
-  /usr/include/c++/8/bits/istream.tcc
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/assert.h
 
+
+/usr/include/assert.h:
 
 src/rectangle.cpp:
 
