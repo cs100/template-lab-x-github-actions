@@ -32,9 +32,9 @@ There are many great workflows that already exist that you can use to get starte
  * In the top bar, click on the "Actions" button.
  * Click on "set up a workflow yourself ->"
 
-Now what you'll see is that GitHub has created a file `main.yml` in `<Repo-name>/.github/workflows/`. This is a YAML file (rhymes with *camel*) and is used typically as a configuration file. GitHub Actions use it to describe the workflow. Let's take a look at each aspect of this file:
+Now what you'll see is that GitHub has created a file `main.yml` in `<Repo-name>/.github/workflows/`. This is a YAML file (rhymes with *camel*) and is used typically as a configuration file. GitHub Actions use it to describe the workflow. Let's write that workflow step by step:
 
-First, you can name the workflow. The default name happens to be CI which is what we're doing so we can leave that.
+First, you can name the workflow. We will use the name CI because this workflow is for continuous integration.
 ```
 name: CI
 ```
@@ -49,7 +49,7 @@ on:
 ```
 Your workflow will now run every time you *push* or make a *pull request* to your **main** branch only. These are the *triggering events*. 
 
-Now let's look at *what* will be done on each of those *triggering events*:
+Now let's look at *what* will be done on each of those *triggering events*. Continue copying the lines below in your main.yml file:
 ```
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
