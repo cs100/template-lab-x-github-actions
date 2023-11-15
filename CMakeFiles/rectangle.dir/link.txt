@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-6/root/usr/bin/c++    -rdynamic CMakeFiles/rectangle.dir/src/main.cpp.o CMakeFiles/rectangle.dir/src/rectangle.cpp.o  -o rectangle 
