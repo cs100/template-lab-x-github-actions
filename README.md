@@ -3,10 +3,10 @@
 > 1. To fork this repository under your account, click on the `fork` button in the upper right hand corner of this page.
 > 1. In the new repository (i.e., the fork), check that all your team members have access by going to the `settings` tab and then clicking on `Manage access` in the left side bar. You should see your team there with write access.
 > 1. Once you reserve a demo slot, you will also need to give the TA/reader that will be taking your demo admin access to your repository for grading. In  `settings` -> `Manage access` click on the green button `Invite teams or people`, and add the TA/reader from the list below using the GitHub username, and make sure you select `admin` as the permission level before clicking `Add`. Please make sure you do this step **_before_** the demo time starts and not during the actual demo.
->    * Lawrence Wang (lwgw)
->    * Gency Aquino Dela Torre (gen-cy)
+>    * Sarah Ramirez (Sarah-Rami27)
+>    * Shruti Jawale (shjawale)
+>    * Jordan Chan (jchan420)
 >    * Nathan Melwani (NateM135)
->    * Minsoo Kim	(minsooerickim)
 >    * Austin Yang (Toona411)
 >    * Ryan Nguyen	(ryannewin)
 >    * Gabriel Serrano (MarsCSmajor)
